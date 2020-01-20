@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+header {
+    position: relative;
+    height: 50px;
+    text-align: center;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 800px;
+    height: 310px;
+    margin-left: 30px;
+    margin-top: 15px;
+} 
+.contacto {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: #DBDBDB;
+    border-style: solid;
+    border:1px#8C8C8C  ;
+    text-align: center;
+    font-size: 160%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.f_1,.f_2,.f_3,.f_4,.f_5,.f_6 {
+    position: relative;
+    width: 100%;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    text-align: justify;
+    font-size: 85%;
+    padding-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_1{
+    position: relative;
+    background:#DBDBDB;
+    width: 560px;
+    height: 71px;
+    text-align: center;
+}
+.caja {
+    position: relative;
+    width: 560px;
+    height: 240px;
+    background: #F2F2F2;
+}
+/*////////////////////////////////////////////////////////*/
+
+input {
+    position: relative;
+    width: 95%;
+    height: 40px;
+    top: 80%;
+    left: 25px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 140%;
+}
+
+img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;   
+    top: 2px;
+    left: -10px;
+}
+/*////////////////////////////////////////////////////////*/
+span{
+    font-size: 140%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+/*////////////////////////////////////////////////////////*/
+.f_1:hover {
+    background-color: #F2F2F2;
+}
+.f_2:hover {
+    background-color: #F2F2F2;
+}
+.f_3:hover {
+    background-color: #F2F2F2;
+}
+.f_4:hover {
+    background-color: #F2F2F2;
+}
+.f_5:hover {
+    background-color: #F2F2F2;
+}
